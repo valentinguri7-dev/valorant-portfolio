@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: valorant-collection-vault
+    runtime: static
+    buildCommand: "true"
+    staticPublishPath: ./public
